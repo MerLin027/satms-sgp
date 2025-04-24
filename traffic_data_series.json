@@ -1,0 +1,602 @@
+[
+  {
+    "timestamp": "2025-04-24T02:50:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 12.259986288177661,
+      "south": 45.36660316201773,
+      "east": 40.93788171347521,
+      "west": 33.34485185491159
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:51:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 46.4199621954251,
+      "south": 39.5795171751429,
+      "east": 40.970971273801375,
+      "west": 46.17101202466916
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:51:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 4,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 3
+    },
+    "avg_speeds": {
+      "north": 30.248501390105055,
+      "south": 41.5680365289824,
+      "east": 42.636102501646654,
+      "west": 49.94539854587795
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:52:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 51.42627627210399,
+      "south": 44.188257259428035,
+      "east": 36.626554572173006,
+      "west": 43.530658343992364
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:52:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 39.64794871939843,
+      "south": 43.56501741370599,
+      "east": 50.48634707522236,
+      "west": 30.13617485421084
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:53:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 52.98431853809553,
+      "south": 62.02762658027469,
+      "east": 35.608447715621864,
+      "west": 42.953408718274325
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:53:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 41.809938728258324,
+      "south": 44.23064697551362,
+      "east": 38.692303028860664,
+      "west": 58.53670231859832
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:54:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 4,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 3
+    },
+    "avg_speeds": {
+      "north": 40.929180018501896,
+      "south": 37.90283472519705,
+      "east": 44.355992424478586,
+      "west": 33.63363710622288
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:54:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 36.27029877785615,
+      "south": 39.47275479668651,
+      "east": 40.23291139915872,
+      "west": 38.56884472386532
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:55:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 41.466621434766594,
+      "south": 30.33037852479685,
+      "east": 42.33729964516496,
+      "west": 36.367841035532685
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:55:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 42.40765341569944,
+      "south": 34.303784782853974,
+      "east": 49.05472621047747,
+      "west": 27.479126590283123
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:56:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 51.36099571946959,
+      "south": 23.709791143515062,
+      "east": 31.30398107182269,
+      "west": 44.005946009732305
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:56:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 3
+    },
+    "avg_speeds": {
+      "north": 40.15026668300167,
+      "south": 43.44988163550387,
+      "east": 40.487093680851224,
+      "west": 30.20703326681443
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:57:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 35.33172281692123,
+      "south": 33.99797156093688,
+      "east": 40.80844591870639,
+      "west": 11.066644648297427
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:57:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 3,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 32.954700824495404,
+      "south": 23.650753879963847,
+      "east": 43.493230950194004,
+      "west": 31.343629774457053
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.15,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:58:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 31.899942773653542,
+      "south": 33.237829845837524,
+      "east": 29.097492356901142,
+      "west": 35.09165753848201
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:58:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 37.977515181711674,
+      "south": 25.03733443927417,
+      "east": 35.69996659085825,
+      "west": 38.82268453760042
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:59:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 39.702427186960655,
+      "south": 30.72337157752812,
+      "east": 33.11712516616657,
+      "west": 39.50481342809086
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T02:59:45.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 3,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 3
+    },
+    "avg_speeds": {
+      "north": 41.80690198254997,
+      "south": 38.127964499892514,
+      "east": 38.741331060963894,
+      "west": 43.58342531840605
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.15,
+      "west": 0.07500000000000001
+    }
+  },
+  {
+    "timestamp": "2025-04-24T03:00:15.535045",
+    "vehicle_counts": {
+      "north": 1,
+      "south": 4,
+      "east": 2,
+      "west": 1
+    },
+    "vehicle_types": {
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 2
+    },
+    "avg_speeds": {
+      "north": 60.22043070071852,
+      "south": 46.21984047964185,
+      "east": 34.614002133110205,
+      "west": 28.762197820488243
+    },
+    "active_events": [
+      85076
+    ],
+    "congestion": {
+      "north": 0.07500000000000001,
+      "south": 0.2,
+      "east": 0.1,
+      "west": 0.07500000000000001
+    }
+  }
+]

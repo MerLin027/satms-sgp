@@ -1,0 +1,755 @@
+2025-03-20 10:52:42,120 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-20 10:52:42,120 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 10:54:08,814 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 10:54:08,840 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:08] "GET /login HTTP/1.1" 200 -
+2025-03-20 10:54:09,021 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 10:54:13,890 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:13] "GET /register HTTP/1.1" 200 -
+2025-03-20 10:54:32,575 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:32] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+2025-03-20 10:54:58,001 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73772f84ef7sm2270507b3a.6 - gsmtp')
+2025-03-20 10:54:58,009 - __main__ - INFO - SMS verification code for 9723897538: 304135
+2025-03-20 10:54:58,038 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:58] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 10:54:59,938 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af56ea964e3sm12061368a12.76 - gsmtp')
+2025-03-20 10:54:59,948 - __main__ - INFO - SMS verification code for 9723897538: 202127
+2025-03-20 10:54:59,954 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:54:59] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 10:55:01,088 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:01] "GET /login HTTP/1.1" 200 -
+2025-03-20 10:55:10,838 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:10] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 10:55:19,543 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:19] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 10:55:22,114 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 10:55:24,378 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:24] "GET /sso HTTP/1.1" 200 -
+2025-03-20 10:55:27,186 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:27] "[32mGET /auth/google HTTP/1.1[0m" 302 -
+2025-03-20 10:55:27,238 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:27] "GET / HTTP/1.1" 200 -
+2025-03-20 10:55:30,786 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 10:55:30] "GET /dashboard HTTP/1.1" 200 -
+2025-03-20 16:05:00,237 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-20 16:05:00,237 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 16:05:16,607 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 16:05:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 16:05:16,626 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 16:05:16] "GET /login HTTP/1.1" 200 -
+2025-03-20 16:05:16,734 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 16:05:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 22:57:01,433 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-20 22:57:01,433 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 22:57:40,986 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:57:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-20 22:57:41,504 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:57:41] "GET /login HTTP/1.1" 200 -
+2025-03-20 22:57:41,641 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:57:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 22:57:50,449 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:57:50] "GET /register HTTP/1.1" 200 -
+2025-03-20 22:58:24,120 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:58:24] "GET /sso HTTP/1.1" 200 -
+2025-03-20 22:58:30,611 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:58:30] "[32mGET /auth/google HTTP/1.1[0m" 302 -
+2025-03-20 22:58:30,669 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:58:30] "GET / HTTP/1.1" 200 -
+2025-03-20 22:58:35,715 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 22:58:35] "GET /dashboard HTTP/1.1" 200 -
+2025-03-20 23:00:26,009 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:00:26] "GET / HTTP/1.1" 200 -
+2025-03-20 23:00:27,605 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:00:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-20 23:00:27,685 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:00:27] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:01:15,113 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:01:15] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 23:01:21,982 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:01:21] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 23:01:24,764 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:01:24] "GET /register HTTP/1.1" 200 -
+2025-03-20 23:01:49,604 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:01:49] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+2025-03-20 23:02:23,409 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-227811da374sm456835ad.173 - gsmtp')
+2025-03-20 23:02:23,409 - __main__ - INFO - SMS verification code for 9723897538: 348025
+2025-03-20 23:02:23,409 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:02:23] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:02:24,765 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3030f6019c9sm115490a91.24 - gsmtp')
+2025-03-20 23:02:24,789 - __main__ - INFO - SMS verification code for 9723897538: 814394
+2025-03-20 23:02:24,792 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:02:24] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:02:26,790 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:02:26] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:02:39,221 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:02:39] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-20 23:03:28,389 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af8a2a2334fsm134296a12.57 - gsmtp')
+2025-03-20 23:03:28,391 - __main__ - INFO - SMS verification code for 9723897538: 207527
+2025-03-20 23:03:28,393 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:28] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:28,961 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-227811bc272sm481985ad.146 - gsmtp')
+2025-03-20 23:03:28,977 - __main__ - INFO - SMS verification code for 9723897538: 629258
+2025-03-20 23:03:28,977 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:28] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:29,637 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-301bf589bccsm4219218a91.11 - gsmtp')
+2025-03-20 23:03:29,640 - __main__ - INFO - SMS verification code for 9723897538: 532540
+2025-03-20 23:03:29,640 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:29] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:29,774 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73905fab1dcsm64442b3a.4 - gsmtp')
+2025-03-20 23:03:29,803 - __main__ - INFO - SMS verification code for 9723897538: 855459
+2025-03-20 23:03:29,807 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:29] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:29,838 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-af8a27db581sm176332a12.8 - gsmtp')
+2025-03-20 23:03:29,841 - __main__ - INFO - SMS verification code for 9723897538: 203028
+2025-03-20 23:03:29,846 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:29] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:30,081 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22780f39d48sm613795ad.37 - gsmtp')
+2025-03-20 23:03:30,081 - __main__ - INFO - SMS verification code for 9723897538: 820547
+2025-03-20 23:03:30,081 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:30] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:31,267 - __main__ - ERROR - Failed to send email verification: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-227811da89csm464015ad.193 - gsmtp')
+2025-03-20 23:03:31,271 - __main__ - INFO - SMS verification code for 9723897538: 394647
+2025-03-20 23:03:31,277 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:31] "POST /api/register HTTP/1.1" 200 -
+2025-03-20 23:03:43,032 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:43] "GET /login HTTP/1.1" 200 -
+2025-03-20 23:03:55,876 - werkzeug - INFO - 192.168.11.112 - - [20/Mar/2025 23:03:55] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-21 00:45:52,676 - __main__ - INFO - Backup system initialized with backup directory: backups
+2025-03-21 05:09:32,431 - __main__ - INFO - Backup created: backups/backup_20250321_004552.zip
+2025-03-21 05:09:32,573 - __main__ - INFO - Scheduled backup created: backups/backup_20250321_004552.zip
+2025-03-21 07:46:11,968 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-21 07:46:11,977 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 07:56:25,751 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-21 07:56:26,078 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:26] "GET /login HTTP/1.1" 200 -
+2025-03-21 07:56:26,123 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-21 07:56:27,439 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:27] "GET /sso HTTP/1.1" 200 -
+2025-03-21 07:56:28,459 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:28] "[32mGET /auth/google HTTP/1.1[0m" 302 -
+2025-03-21 07:56:28,465 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:28] "GET / HTTP/1.1" 200 -
+2025-03-21 07:56:29,365 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:56:29] "GET /dashboard HTTP/1.1" 200 -
+2025-03-21 07:56:53,665 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-21 07:56:53,665 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-21 07:59:00,265 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-21 07:59:00,276 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:00] "GET /login HTTP/1.1" 200 -
+2025-03-21 07:59:04,647 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:04] "GET /sso HTTP/1.1" 200 -
+2025-03-21 07:59:05,757 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:05] "[32mGET /auth/google HTTP/1.1[0m" 302 -
+2025-03-21 07:59:05,775 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:05] "GET / HTTP/1.1" 200 -
+2025-03-21 07:59:07,885 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:07] "GET /dashboard HTTP/1.1" 200 -
+2025-03-21 07:59:28,952 - werkzeug - INFO - 192.168.11.112 - - [21/Mar/2025 07:59:28] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 13:39:05,229 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 13:39:05,239 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:39:28,783 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:28] "GET / HTTP/1.1" 200 -
+2025-03-28 13:39:29,007 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 13:39:34,456 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:34] "GET / HTTP/1.1" 200 -
+2025-03-28 13:39:34,691 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:34] "[32mGET /start HTTP/1.1[0m" 302 -
+2025-03-28 13:39:35,307 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:35] "GET / HTTP/1.1" 200 -
+2025-03-28 13:39:40,345 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:40] "GET / HTTP/1.1" 200 -
+2025-03-28 13:39:46,003 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:46] "GET / HTTP/1.1" 200 -
+2025-03-28 13:39:55,157 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:39:55] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:00,852 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:00] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:05,874 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:05] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:11,539 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:11] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:16,575 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:16] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:22,259 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:22] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:27,295 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:27] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:32,956 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:32] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:38,001 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:38] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:43,639 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:43] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:48,678 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:48] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:54,354 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:54] "GET / HTTP/1.1" 200 -
+2025-03-28 13:40:59,380 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:40:59] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:05,047 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:05] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:10,076 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:10] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:15,756 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:15] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:20,783 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:20] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:26,440 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:26] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:31,476 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:31] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:37,146 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:37] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:42,190 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:42] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:47,853 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:47] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:52,872 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:52] "GET / HTTP/1.1" 200 -
+2025-03-28 13:41:58,540 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:41:58] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:03,559 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:03] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:09,228 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:09] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:14,256 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:14] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:19,912 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:19] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:24,944 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:24] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:30,636 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:30] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:35,660 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:35] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:41,324 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:41] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:46,355 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:46] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:52,006 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:52] "GET / HTTP/1.1" 200 -
+2025-03-28 13:42:57,046 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:42:57] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:02,717 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:02] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:07,772 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:07] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:13,448 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:13] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:18,483 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:18] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:24,140 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:24] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:29,173 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:29] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:34,837 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:34] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:39,875 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:39] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:45,536 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:45] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:50,564 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:50] "GET / HTTP/1.1" 200 -
+2025-03-28 13:43:56,220 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:43:56] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:01,249 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:01] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:06,908 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:06] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:11,945 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:11] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:17,617 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:17] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:22,641 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:22] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:29,485 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:29] "GET /report HTTP/1.1" 200 -
+2025-03-28 13:44:32,639 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:32] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:36,463 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:36] "[32mGET /stop HTTP/1.1[0m" 302 -
+2025-03-28 13:44:36,488 - __main__ - INFO - Backup system initialized with backup directory: backups
+2025-03-28 13:44:36,492 - __main__ - INFO - Backup created: backups/backup_20250328_134436.zip
+2025-03-28 13:44:36,622 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:36] "GET / HTTP/1.1" 200 -
+2025-03-28 13:44:42,305 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:44:42] "GET / HTTP/1.1" 200 -
+2025-03-28 13:46:43,273 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 13:46:43,273 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:47:00,459 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 13:47:00] "GET / HTTP/1.1" 200 -
+2025-03-28 13:47:01,415 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 13:47:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 13:47:19,632 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 13:47:19] "[32mGET /start HTTP/1.1[0m" 302 -
+2025-03-28 13:47:19,726 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:19,727 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:19,733 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:19,734 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:19,978 - main - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\OneDrive\Desktop\23IT098\SGP\smart_traffic_management\main.py", line 615, in index
+    return render_template_string("""
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\templating.py", line 162, in render_template_string
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<template>", line 262, in top-level template code
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\utils.py", line 92, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+2025-03-28 13:47:19,985 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 13:47:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 13:47:25,960 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:25,961 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:25,967 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:25,968 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:47:26,189 - main - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\OneDrive\Desktop\23IT098\SGP\smart_traffic_management\main.py", line 615, in index
+    return render_template_string("""
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\templating.py", line 162, in render_template_string
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<template>", line 262, in top-level template code
+  File "C:\Users\pvmi1\AppData\Roaming\Python\Python312\site-packages\jinja2\utils.py", line 92, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'min' is undefined
+2025-03-28 13:47:26,191 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 13:47:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-28 13:52:39,544 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 13:52:39,544 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 13:52:46,619 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:52:46] "GET / HTTP/1.1" 200 -
+2025-03-28 13:52:47,242 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:52:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 13:52:52,312 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:52:52] "GET / HTTP/1.1" 200 -
+2025-03-28 13:52:55,954 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:52:55] "[32mGET /start HTTP/1.1[0m" 302 -
+2025-03-28 13:52:55,980 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:52:55,981 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:52:55,989 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:52:55,990 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:52:56,154 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:52:56] "GET / HTTP/1.1" 200 -
+2025-03-28 13:53:01,197 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:01,198 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:01,205 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:01,206 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:01,397 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:53:01] "GET / HTTP/1.1" 200 -
+2025-03-28 13:53:06,434 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:06,435 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:06,445 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:06,447 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:06,656 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:53:06] "GET / HTTP/1.1" 200 -
+2025-03-28 13:53:11,691 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:11,692 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:11,698 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:11,699 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:11,889 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:53:11] "GET / HTTP/1.1" 200 -
+2025-03-28 13:53:16,931 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:16,932 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:16,939 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:16,940 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:17,122 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:53:17] "GET / HTTP/1.1" 200 -
+2025-03-28 13:53:22,172 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:22,174 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:22,179 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:22,187 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-28 13:53:22,374 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 13:53:22] "GET / HTTP/1.1" 200 -
+2025-03-28 15:09:36,770 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 15:09:36,770 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:09:46,549 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 15:09:46,558 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:46] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:09:50,884 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:50] "GET /register HTTP/1.1" 200 -
+2025-03-28 15:09:55,981 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:55] "GET /sso HTTP/1.1" 200 -
+2025-03-28 15:09:56,682 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:56] "[32mGET /auth/google HTTP/1.1[0m" 302 -
+2025-03-28 15:09:56,688 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:56] "GET / HTTP/1.1" 200 -
+2025-03-28 15:09:57,733 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:09:57] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 15:16:04,495 - __main__ - INFO - Created default admin user: admin@example.com (password: Admin123)
+2025-03-28 15:16:04,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 15:16:04,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:16:09,256 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:16:09] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 15:16:09,263 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:16:09] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:16:12,335 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:16:12] "GET /register HTTP/1.1" 200 -
+2025-03-28 15:17:02,661 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:17:02] "POST /api/register HTTP/1.1" 200 -
+2025-03-28 15:17:04,702 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:17:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:17:11,552 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:17:11] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 15:17:11,573 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:17:11] "GET / HTTP/1.1" 200 -
+2025-03-28 15:17:19,731 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:17:19] "GET /backup HTTP/1.1" 200 -
+2025-03-28 15:34:30,250 - __main__ - INFO - Created default admin user: admin@example.com (password: Admin123)
+2025-03-28 15:34:30,283 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 15:34:30,284 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:34:35,689 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 15:34:35,689 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:35] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:34:45,512 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:45] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-28 15:34:55,277 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:55] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-28 15:34:56,666 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:56] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-28 15:34:57,775 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:34:57] "GET /register HTTP/1.1" 200 -
+2025-03-28 15:35:12,985 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:12] "POST /api/register HTTP/1.1" 200 -
+2025-03-28 15:35:15,010 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:15] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:35:22,253 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:22] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 15:35:22,286 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:22] "GET / HTTP/1.1" 200 -
+2025-03-28 15:35:24,866 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:24] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 15:35:28,807 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 15:35:28,816 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:35:28] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:42:37,226 - __main__ - INFO - No existing user database found, creating new
+2025-03-28 15:42:37,332 - __main__ - INFO - Saved 1 users to database
+2025-03-28 15:42:37,358 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 15:42:37,358 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:42:41,252 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:42:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 15:42:41,262 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:42:41] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:42:49,413 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:42:49] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-28 15:42:50,936 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:42:50] "GET /register HTTP/1.1" 200 -
+2025-03-28 15:43:02,811 - __main__ - INFO - Saved 2 users to database
+2025-03-28 15:43:02,811 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:43:02] "POST /api/register HTTP/1.1" 200 -
+2025-03-28 15:43:04,834 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:43:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:43:11,321 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:43:11] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 15:43:11,351 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:43:11] "GET / HTTP/1.1" 200 -
+2025-03-28 15:43:12,626 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 15:43:12] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 15:43:24,299 - __main__ - INFO - Loaded 2 users from database
+2025-03-28 15:43:24,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 15:43:24,328 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 15:43:25,833 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 15:43:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 15:43:25,833 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 15:43:25] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:43:36,904 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 15:43:36] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 15:43:36,926 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 15:43:36] "GET / HTTP/1.1" 200 -
+2025-03-28 15:43:42,861 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 15:43:42] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 16:25:09,214 - __main__ - INFO - Loaded 2 users from database
+2025-03-28 16:25:09,242 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 16:25:09,242 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 16:25:16,046 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 16:25:16,367 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:16] "GET /login HTTP/1.1" 200 -
+2025-03-28 16:25:16,419 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 16:25:16,481 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 16:25:29,919 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:29] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 16:25:29,944 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:29] "GET / HTTP/1.1" 200 -
+2025-03-28 16:25:29,974 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:25:57,443 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:57] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 16:25:57,482 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:25:57,488 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:57] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-28 16:25:57,494 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:57] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-28 16:25:57,502 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:25:57] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-28 16:27:37,748 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:27:37] "GET / HTTP/1.1" 200 -
+2025-03-28 16:27:37,767 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:27:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:27:38,729 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:27:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 16:27:38,737 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:27:38] "GET /login HTTP/1.1" 200 -
+2025-03-28 16:27:38,757 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:27:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:38:57,917 - __main__ - INFO - Loaded 2 users from database
+2025-03-28 16:38:57,938 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.112:5000
+2025-03-28 16:38:57,938 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 16:39:04,590 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 16:39:04,902 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 16:39:04,948 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 16:39:05,009 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 16:39:17,360 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:17] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 16:39:17,390 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:17] "GET / HTTP/1.1" 200 -
+2025-03-28 16:39:17,415 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:39:19,457 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:19] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 16:39:19,498 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 16:39:19,505 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:19] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-28 16:39:19,511 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:19] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-28 16:39:19,516 - werkzeug - INFO - 192.168.11.112 - - [28/Mar/2025 16:39:19] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-28 22:49:39,056 - __main__ - INFO - Loaded 2 users from database
+2025-03-28 22:49:39,077 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.0.101:5000
+2025-03-28 22:49:39,077 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 22:49:43,559 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:49:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 22:49:43,583 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:49:43] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:49:43,797 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:49:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 22:49:58,241 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:49:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-28 22:51:57,887 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:51:57] "GET /register HTTP/1.1" 200 -
+2025-03-28 22:51:57,927 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:51:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 22:52:16,253 - __main__ - INFO - Saved 3 users to database
+2025-03-28 22:52:16,254 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:16] "POST /api/register HTTP/1.1" 200 -
+2025-03-28 22:52:18,283 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:18] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:52:18,345 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 22:52:27,760 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:27] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 22:52:27,784 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:27] "GET / HTTP/1.1" 200 -
+2025-03-28 22:52:27,851 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 22:52:38,266 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:38] "GET / HTTP/1.1" 200 -
+2025-03-28 22:52:38,297 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 22:52:44,816 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 22:52:44,823 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:44] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:52:44,893 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:52:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 22:52:59,117 - __main__ - INFO - Loaded 3 users from database
+2025-03-28 22:52:59,141 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.0.101:5000
+2025-03-28 22:52:59,141 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 22:53:04,144 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 22:53:04,159 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 22:53:04,365 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 22:53:16,301 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:16] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 22:53:16,325 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:16] "GET / HTTP/1.1" 200 -
+2025-03-28 22:53:16,375 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 22:53:18,603 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:18] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 22:53:18,659 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:18] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-28 22:53:18,668 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 22:53:18,674 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:18] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-28 22:53:18,676 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 22:53:18] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-28 23:16:53,168 - __main__ - INFO - Loaded 3 users from database
+2025-03-28 23:16:53,189 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.0.101:5000
+2025-03-28 23:16:53,189 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 23:16:58,483 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:16:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-28 23:16:58,507 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:16:58] "GET /login HTTP/1.1" 200 -
+2025-03-28 23:16:58,791 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:16:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 23:17:13,038 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:13] "POST /api/login HTTP/1.1" 200 -
+2025-03-28 23:17:13,076 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:13] "GET / HTTP/1.1" 200 -
+2025-03-28 23:17:13,149 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:13] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-28 23:17:19,312 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:19] "GET /dashboard HTTP/1.1" 200 -
+2025-03-28 23:17:19,383 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-28 23:17:19,398 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:19] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-28 23:17:19,400 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:19] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-28 23:17:19,401 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:17:19] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-28 23:18:16,619 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:18:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 23:18:16,632 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:18:16] "GET /login HTTP/1.1" 200 -
+2025-03-28 23:18:16,684 - werkzeug - INFO - 192.168.0.101 - - [28/Mar/2025 23:18:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 00:01:42,983 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 00:01:43,003 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.0.101:5000
+2025-03-29 00:01:43,003 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 00:01:49,046 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:01:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 00:01:49,091 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:01:49] "GET /login HTTP/1.1" 200 -
+2025-03-29 00:01:49,359 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:01:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 00:01:49,461 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:01:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 00:02:03,149 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:03] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 00:02:03,191 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:03] "GET / HTTP/1.1" 200 -
+2025-03-29 00:02:03,277 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:03] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 00:02:06,680 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:06] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 00:02:06,756 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 00:02:06,761 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:06] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 00:02:06,766 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:06] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 00:02:06,773 - werkzeug - INFO - 192.168.0.101 - - [29/Mar/2025 00:02:06] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 09:33:03,281 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 09:33:03,333 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 09:33:03,334 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 09:33:15,834 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 09:33:15,924 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:15] "GET /login HTTP/1.1" 200 -
+2025-03-29 09:33:16,298 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 09:33:16,370 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 09:33:36,210 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:36] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 09:33:36,216 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:36] "GET /login HTTP/1.1" 200 -
+2025-03-29 09:33:36,287 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:33:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 09:34:06,893 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:06] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 09:34:06,928 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:06] "GET / HTTP/1.1" 200 -
+2025-03-29 09:34:06,981 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:06] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 09:34:31,746 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:31] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 09:34:31,803 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 09:34:31,829 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:31] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 09:34:31,838 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:31] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 09:34:31,855 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:34:31] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 09:55:14,361 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 09:55:14,382 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 09:55:14,382 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 09:55:21,401 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 09:55:21,426 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:21] "GET /login HTTP/1.1" 200 -
+2025-03-29 09:55:21,693 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 09:55:44,764 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:44] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-29 09:55:51,389 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-29 09:55:59,658 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:59] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 09:55:59,690 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:59] "GET / HTTP/1.1" 200 -
+2025-03-29 09:55:59,769 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:55:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 09:56:01,444 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:56:01] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 09:56:01,512 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:56:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 09:56:01,536 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:56:01] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 09:56:01,544 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:56:01] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 09:56:01,550 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:56:01] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 09:59:38,799 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 09:59:38,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 09:59:38,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 09:59:48,236 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:59:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 09:59:48,257 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:59:48] "GET /login HTTP/1.1" 200 -
+2025-03-29 09:59:48,483 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 09:59:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:00:00,991 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:00] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:00:01,022 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:01] "GET / HTTP/1.1" 200 -
+2025-03-29 10:00:01,085 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:00:02,725 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:02] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:00:02,808 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:00:02,817 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:02] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:00:02,824 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:02] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:00:02,826 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:00:02] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:01:56,421 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:01:56,445 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:01:56,445 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:02:01,146 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:02:01,166 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:01] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:02:01,380 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:02:21,406 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:21] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:02:21,483 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:21] "GET / HTTP/1.1" 200 -
+2025-03-29 10:02:21,547 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:02:23,139 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:23] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:02:23,217 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:02:23,221 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:23] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:02:23,227 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:23] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:02:23,232 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:02:23] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:20:06,618 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:20:06,639 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:20:06,639 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:20:12,513 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:20:12,547 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:12] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:20:12,806 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:20:21,813 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:21] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:20:21,891 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:21] "GET / HTTP/1.1" 200 -
+2025-03-29 10:20:21,961 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:20:23,312 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:23] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:20:23,389 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:20:23,395 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:23] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:20:23,400 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:23] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:20:23,405 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:20:23] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:24:08,997 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:24:09,018 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:24:09,018 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:24:15,989 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:24:16,007 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:16] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:24:16,217 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:24:26,925 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:26] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-29 10:24:28,077 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:28] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2025-03-29 10:24:29,757 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:29] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:24:29,833 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:29] "GET / HTTP/1.1" 200 -
+2025-03-29 10:24:29,906 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:29] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:24:31,439 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:31] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:24:31,513 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:24:31,527 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:31] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:24:31,530 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:31] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:24:31,532 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:24:31] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:27:17,037 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:27:17,060 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:27:17,061 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:27:21,582 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:27:21,605 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:21] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:27:21,813 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:21] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:27:31,437 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:31] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:27:31,469 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:31] "GET / HTTP/1.1" 200 -
+2025-03-29 10:27:31,536 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:31] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:27:32,928 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:32] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:27:33,003 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:33] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:27:33,012 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:27:33,017 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:33] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:27:33,019 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:27:33] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:30:37,066 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:30:37,086 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:30:37,086 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:30:41,523 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:41] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:30:41,546 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:41] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:30:41,769 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:30:54,949 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:54] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:30:54,976 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:54] "GET / HTTP/1.1" 200 -
+2025-03-29 10:30:55,049 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:55] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:30:56,190 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:56] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:30:56,262 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:30:56,267 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:56] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:30:56,273 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:56] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:30:56,278 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:30:56] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:42:00,671 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:42:00,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:42:00,688 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:42:06,210 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:42:06,222 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:06] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:42:06,416 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:06] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:42:16,915 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:16] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:42:16,938 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:16] "GET / HTTP/1.1" 200 -
+2025-03-29 10:42:16,989 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:16] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:42:18,315 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:18] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:42:18,367 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:42:18,381 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:18] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:42:18,382 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:18] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:42:18,384 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:42:18] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:46:12,140 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:46:12,156 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:46:12,156 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:46:16,986 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:46:17,024 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:17] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:46:17,233 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:17] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:46:25,781 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:25] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:46:25,811 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:25] "GET / HTTP/1.1" 200 -
+2025-03-29 10:46:25,866 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:46:27,256 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:27] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:46:27,304 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:46:27,318 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:27] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:46:27,319 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:27] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:46:27,321 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:46:27] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:54:40,161 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:54:40,180 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:54:40,180 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:54:47,112 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:47] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:54:47,129 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:47] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:54:47,329 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:47] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:54:58,537 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:58] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:54:58,570 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:58] "GET / HTTP/1.1" 200 -
+2025-03-29 10:54:58,622 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:58] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:54:59,661 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:59] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:54:59,718 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:54:59,723 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:59] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:54:59,729 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:59] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:54:59,733 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:54:59] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-03-29 10:59:23,117 - __main__ - INFO - Loaded 3 users from database
+2025-03-29 10:59:23,132 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.11.47:5000
+2025-03-29 10:59:23,133 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 10:59:27,434 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-03-29 10:59:27,447 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:27] "GET /login HTTP/1.1" 200 -
+2025-03-29 10:59:27,621 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:27] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:59:37,426 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:37] "POST /api/login HTTP/1.1" 200 -
+2025-03-29 10:59:37,459 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:37] "GET / HTTP/1.1" 200 -
+2025-03-29 10:59:37,516 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:37] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-03-29 10:59:38,984 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:38] "GET /dashboard HTTP/1.1" 200 -
+2025-03-29 10:59:39,031 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-03-29 10:59:39,039 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:39] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-03-29 10:59:39,049 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:39] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-03-29 10:59:39,050 - werkzeug - INFO - 192.168.11.47 - - [29/Mar/2025 10:59:39] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-04-24 02:31:41,280 - __main__ - INFO - Generated and saved new Flask secret key
+2025-04-24 02:31:41,281 - __main__ - INFO - Loaded 3 users from database
+2025-04-24 02:31:41,306 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.198.161:5000
+2025-04-24 02:31:41,307 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 02:31:46,413 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:46] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-04-24 02:31:46,454 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:46] "GET /login HTTP/1.1" 200 -
+2025-04-24 02:31:46,720 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:46] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-04-24 02:31:57,772 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:57] "POST /api/login HTTP/1.1" 200 -
+2025-04-24 02:31:57,795 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:57] "GET / HTTP/1.1" 200 -
+2025-04-24 02:31:57,877 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-04-24 02:31:59,557 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:59] "GET /dashboard HTTP/1.1" 200 -
+2025-04-24 02:31:59,658 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:59] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-24 02:31:59,666 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-04-24 02:31:59,672 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:59] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-04-24 02:31:59,674 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:31:59] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-04-24 02:32:22,672 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:32:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-24 02:32:22,683 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:32:22] "GET /login HTTP/1.1" 200 -
+2025-04-24 02:32:22,803 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 02:32:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-04-24 03:08:49,659 - __main__ - INFO - Loaded existing Flask secret key
+2025-04-24 03:08:49,660 - __main__ - INFO - Loaded 3 users from database
+2025-04-24 03:08:49,682 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.198.161:5000
+2025-04-24 03:08:49,682 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 03:09:01,591 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-24 03:09:01,609 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:01] "GET /login HTTP/1.1" 200 -
+2025-04-24 03:09:01,827 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:01] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-04-24 03:09:11,904 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:11] "POST /api/login HTTP/1.1" 200 -
+2025-04-24 03:09:11,930 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:11] "GET / HTTP/1.1" 200 -
+2025-04-24 03:09:12,027 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:12] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-04-24 03:09:13,580 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:13] "GET /dashboard HTTP/1.1" 200 -
+2025-04-24 03:09:13,688 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-04-24 03:09:13,693 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:13] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-24 03:09:13,697 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:13] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-04-24 03:09:13,703 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:13] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
+2025-04-24 03:09:30,160 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:30] "GET / HTTP/1.1" 200 -
+2025-04-24 03:09:34,997 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:09:34] "GET /login HTTP/1.1" 200 -
+2025-04-24 03:10:08,702 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:08] "POST /api/login HTTP/1.1" 200 -
+2025-04-24 03:10:08,721 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:08] "GET / HTTP/1.1" 200 -
+2025-04-24 03:10:08,806 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:08] "GET /static/css/main.css HTTP/1.1" 200 -
+2025-04-24 03:10:10,040 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:10] "GET /dashboard HTTP/1.1" 200 -
+2025-04-24 03:10:10,135 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2025-04-24 03:10:10,140 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:10] "GET /static/css/dashboard.css HTTP/1.1" 200 -
+2025-04-24 03:10:10,145 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:10] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2025-04-24 03:10:10,151 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 03:10:10] "GET /static/js/traffic-simulation.js HTTP/1.1" 200 -
